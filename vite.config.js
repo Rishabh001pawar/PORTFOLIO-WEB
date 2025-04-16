@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '', // Leave this empty for Vercel
-  build: {
-    outDir: 'dist', // Output directory
+  css: {
+    postcss: './postcss.config.js', // Use the path to your PostCSS config file
   },
 });

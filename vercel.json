@@ -1,8 +1,7 @@
 {
-    "version": 2,
-    "public": "true",
-    "rewrites": [
-      { "source": "/gallery/(.*)", "destination": "/public/gallery/$1" }
-    ]
-  }
-  
+  "version": 2,
+  "public": "true",
+  "rewrites": [
+    { "source": "/gallery/(.*)", "destination": "/public/gallery/$1" }
+  ]
+}
