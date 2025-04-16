@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "public": "public",
+    "rewrites": [
+      { "source": "/gallery/(.*)", "destination": "/public/gallery/$1" }
+    ]
+  }
+  
